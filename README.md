@@ -26,4 +26,20 @@ The first line of attack is modelling each line of dialogue as Democrat-spoken o
 We use accuracy as the metric of choice because the balance of datapoints is equivalent between the two parties so we just want to know the most informed model. The top accuracy score is 68%. Good, not great.
 
 ## The Breakdown of Topics - Gensim Topic modelling
-We can find out what the candidates spend their time talking about by topic. For this we are using Gensim topic modelling with TFIDF. 
+We can find out what the candidates spend their time talking about by topic. For this we are using Gensim for topic modelling. Here we are letting the Machine Model pick out the topics and then condense them with human supervision. The results, breaking down the topics into the large categories: Taxes/Economy, Abortion/Drugs/Guns/Race, Foreign Policy, Military/War, Supreme Court, Global Warming, and Thanks. Interestingly thanks is a small (as a share of data) subset that includes "Thank you for hosting this debate." The model returns this as a significantly different whole topic.
+
+With the machine learning what topics were spoken on we can break these down by party. We get significant differences between the parties.
+
+Democrats spoke less than Replicans overall (as a percent difference):   
+-13.525%
+
+Breakdown by topic by percent difference between Democrats and Republicans:  
+'Court Cases: -2.6%',  
+'Global Warming: 21.1%',  
+'Thanks: -25.0%',  
+'Taxes/Economy: -10.4%',  
+'Abortion/Drugs/Race/Guns: -25.8%',  
+'Foreign Policy: -15.6%',  
+'Military: -14.5%']
+
+![Topics Breakdown by Party](images/Topic_breakdown "Topics Breakdown by Party")
