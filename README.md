@@ -52,6 +52,7 @@ With the model learning what topics were spoken on we can break these down by pa
 
 **Democrats**  
 ![Democrat Topics](images/Democrat_Topics.png "Democratic Party")
+
 **Republicans**  
 ![Republican Topics](images/Republican_Topics.png "Republican Party")
 
@@ -75,4 +76,4 @@ Republicans lead on domestic issues, abortion, drugs, race and guns. It proved t
 
 Finally, topics like war, foriegn policy, economy are evergreen. The vast majority of the debates are dominated by these topics, picked by the moderators. This includes the Vietnam War, Iraq war, China, trade policy, recessions, and whether taxes are too high. Breaking down these topics will require further drilling down to find the nuance within the umbrella of topics. We can do further analysis, looking for individual words within the topic of Military, see what kinds of words Republicans emphasize vs Democrats.
 
-In conclusion, over time Democrats and Republicans have honed a common debate culture within their parties. We can learn broadly how different the parties are and what subjects they are more comfortable with. With more analysis we can glean even more nuance that gets lost in horse race nature of human pundits analysis. 
+In conclusion, over time Democrats and Republicans have honed a common debate culture within their parties. We can learn broadly how different the parties are and what subjects they are more comfortable with. With more analysis we can glean even more nuance that gets lost in horse race nature of human pundits analysis.
